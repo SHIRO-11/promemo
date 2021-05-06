@@ -1,0 +1,21 @@
+@layout('layouts.app')
+
+@section('content')
+<main>
+    <aside class="col-md-2">
+        <ul>
+            <li><a href="">みんなのメモ</a></li>
+            <li><a href="">自分のメモ</a></li>
+            <li><a href="">いいねした</a></li>
+        </ul>
+    </aside>
+    <div class="main-contents">
+        {{--  @each(memo in memos)
+        <div class="memo">
+            <h3>{{memo.title}}</h3>
+            <p>{{memo.content}}</p>
+        </div>
+        @endeach  --}}
+    </div>
+</main>
+@endsection
